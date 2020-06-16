@@ -1,0 +1,13 @@
+net\javatutorial\tutorials\testx.class
+net\javatutorial\tutorials\Serializers\PlayerSerializer.class
+net\javatutorial\tutorials\model\Club.class
+net\javatutorial\tutorials\Serializers\IdentityCardSerializer.class
+net\javatutorial\tutorials\model\League.class
+net\javatutorial\tutorials\Serializers\ClubSerializer.class
+net\javatutorial\tutorials\model\Player.class
+net\javatutorial\tutorials\Serializers\LeagueSerializer.class
+net\javatutorial\tutorials\SimpleServlet.class
+net\javatutorial\tutorials\model\Passport.class
+net\javatutorial\tutorials\Serializers\PassportSerializer.class
+net\javatutorial\tutorials\db.class
+net\javatutorial\tutorials\model\IdentityCard.class
