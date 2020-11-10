@@ -1,0 +1,75 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>FRONTEND</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <script src="scripts.js"></script>
+    </head>
+    
+    <body>
+        <div id="banner"><h1 id="textbanner">FRONTEND</h1></div>
+        
+        <div id="menu">
+        
+
+            <ul>
+            
+            <a href="index.html"><li>Index</li></a>
+	    <a href="league.html"><li>League</li></a>
+            <a href="club.html"><li class="current">Club</li></a>
+            <a href="passport.html"><li>Passport</li></a>
+            <a href="identitycard.html"><li>IdentityCard</li></a>
+            <a href="player.html"><li>Player</li></a>
+	    <a href="info.html"><li>Info</li></a>
+            
+            </ul>
+        
+        </div>
+        
+        <div id="tresc">
+                    
+            <div id="demo"></div>
+            <hr>
+            <div>
+            
+            <form id="form">
+                <input type="text" name="TEAM_NAME" id="TEAM_NAME" placeholder="TEAM_NAME">
+                <input type="text" name="LEAGUE_ID" id="LEAGUE_ID" placeholder="LEAGUE_ID">
+                
+                
+                </form>
+            <button onclick="ADDfunction()">ADD</button>
+            </div>
+            
+        </div>
+        
+        <div id="stopka"><p id="podpis">Damian Strojny</p></div>
+
+<script>
+    var pathname = window.location.pathname;
+    if(pathname.includes("info.html")){
+        printINFO();
+    }
+    else if(pathname.includes("player.html")){
+        GETfunction("player");
+    }
+    else if(pathname.includes("club.html")){
+        GETfunction("club");
+    }
+    else if(pathname.includes("league.html")){
+        GETfunction("league");
+    }
+    else if(pathname.includes("passport.html")){
+        GETfunction("passport");
+    }
+    else if(pathname.includes("identitycard.html")){
+        GETfunction("identitycard");
+    }
+    else if(pathname.includes("index.html")){
+        document.getElementById("demo").innerHTML = "index.html";
+    }
+    </script>
+</body>
+</html>
