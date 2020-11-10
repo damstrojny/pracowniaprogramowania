@@ -4,4 +4,4 @@
 - Serwer - Tomcat
 - Baza danych - mysql
 
-video: https://www.youtube.com/embed/FLgl4wWMwUE
+[![Przyklad funkcjonalnosci](https://img.youtube.com/vi/FLgl4wWMwUE/0.jpg)](http://www.youtube.com/watch?v=FLgl4wWMwUE)
